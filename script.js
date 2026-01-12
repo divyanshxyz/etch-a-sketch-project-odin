@@ -56,6 +56,12 @@ let newButton = document.querySelector("#newButton");
 newButton.addEventListener("click", createGrid);
 
 let randomColorButton = document.querySelector("#randomColorButton");
-randomColorButton.addEventListener("click", createColorGrid)
+randomColorButton.addEventListener("click", createColorGrid);
+
+let clearButton = document.querySelector("#clearButton");
+clearButton.addEventListener("click", ()=> {
+    let container = document.querySelector("#container");
+    container.innerHTML = "";
+});
 
 
