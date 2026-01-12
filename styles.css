@@ -1,0 +1,39 @@
+#container {
+    display: flex;
+    border: 2px solid black;
+    height: 720px;
+    width: 720px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-radius: 6px;
+}
+
+
+
+body {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+button {
+    flex-grow: 0;
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    background-color: rgb(82, 82, 239);
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    transition: rgb(82, 82, 250) 0.3s ease;
+}
+
+#buttonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
